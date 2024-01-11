@@ -20,7 +20,7 @@
 .banner-title {
     color: #151414;
     text-align: right;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 700;
     align-content: right;
 }
@@ -81,4 +81,130 @@ button {
     color: #444343;
     font-size: 16px;
     font-weight: 400;
+}
+
+/* Plan Section Styles */
+.plan-info {
+    padding: 50px 200px;
+}
+
+.plan-info-title {
+    color: #151414;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.plan-item-container {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.item-list-icon {
+    margin: auto;
+    display: block;
+}
+
+.list-item-title {
+    color: #151414;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.list-item-description {
+    color: #737272;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Bottom Section Styles */
+.bottom {
+    padding: 50px 200px;
+}
+
+.motivation {
+    background-image: url("../images/gradient3.png"), url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+    height: 150px;
+    padding: 50px;
+}
+
+.motivation-title {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+    width: 400px;
+}
+
+.btn-call {
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0px;
+    padding: 10px 20px;
+
+}
+
+/* Footer Section Styles */
+footer {
+    background: #151414;
+}
+
+.footer-container {
+    display: flex;
+    gap: 100px;
+}
+
+.footer-item {
+    padding: 50px 200px 10px 200px;
+}
+
+.footer-item-title {
+    color: #F8F8F8;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.footer-item-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.subscription input[type="email"] {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.email-box {
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    background: #151414;
+    padding: 10px 25px 10px 10px;
+}
+
+.btn-subscribe {
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0px;
+    padding: 10px 20px;
+}
+
+.social-links {
+    padding: 20px 200px;
 }
