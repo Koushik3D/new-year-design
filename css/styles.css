@@ -1,0 +1,84 @@
+/* Common CSS Styles */
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Header Section Styles */
+.header {
+    background-image: url("../images/banner/banner1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+}
+
+.banner-content {
+    align-content: right;
+    padding: 100px 100px 150px 800px;
+}
+
+.banner-title {
+    color: #151414;
+    text-align: right;
+    font-size: 40px;
+    font-weight: 700;
+    align-content: right;
+}
+
+.banner-description {
+    color: #444343;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+button {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #F15B22;
+    border: 0px;
+    padding: 10px 15px;
+}
+
+.btn-position {
+    text-align: right;
+}
+
+/* Main Section Styles */
+.failure-info {
+    display: flex;
+}
+
+.failure-image {
+    width: 200px;
+    height: 400px;
+    padding: 100px 125px 100px 125px;
+    align-items: left;
+}
+
+.failure-info-container {
+    padding: 300px 200px 200px 300px;
+}
+
+.failure-info-title {
+    color: #151414;
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.failure-info-description {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.failure-info-list {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+}
